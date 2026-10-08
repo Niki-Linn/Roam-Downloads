@@ -4,17 +4,17 @@ A local travel itinerary planner for Windows and macOS. Arrange places and trans
 
 ## Documentation
 
-- [Downloads](https://github.com/Niki-Linn/Roam-Downloads/releases/tag/v0.1.20)
+- [Downloads](https://github.com/Niki-Linn/Roam-Downloads/releases/tag/v0.1.21)
 
 ## Before downloading
 
-- Download the app from this repository's [Releases page](https://github.com/Niki-Linn/Roam-Downloads/releases/tag/v0.1.20). **Code → Download ZIP** on the repository homepage downloads repository documentation, not a ready-to-run app.
+- Download the app from this repository's [Releases page](https://github.com/Niki-Linn/Roam-Downloads/releases/tag/v0.1.21). **Code → Download ZIP** on the repository homepage downloads repository documentation, not a ready-to-run app.
 - This is the public download repository. You do not need a GitHub account or repository invitation to download the app. Source code and development history are maintained separately in a private repository.
 - The downloads include the required runtime. You do not need to install Node.js, Python or Electron separately. Live searches, weather, maps and model calls require an internet connection.
 
 ## Windows installation
 
-1. Under **Assets** on the release page, download `Roam-0.1.20-Windows-x64.zip`. This is the Windows 64-bit version; it cannot run on macOS.
+1. Under **Assets** on the release page, download `Roam-0.1.21-Windows-x64.zip`. This is the Windows 64-bit version; it cannot run on macOS.
 2. Right-click the downloaded ZIP and choose **Extract All**. Extract it to a folder you can write to. Do not run the app from inside the ZIP.
 3. Open the extracted `Roam` folder and double-click `Roam.exe`. Keep the other files and subfolders beside it; they are required to run the app.
 4. To launch from your desktop, create a desktop shortcut to `Roam.exe`. Do not move the EXE out of its folder by itself.
@@ -28,8 +28,8 @@ The Windows version is portable and needs no installation wizard. It is not deve
 
 1. Open **Apple menu  → About This Mac** and check the chip or processor. Choose arm64 for Apple Silicon / M-series chips, or x64 for an Intel processor.
 2. Under **Assets** on the release page, download the matching file:
-   - **Apple Silicon (M-series)**: `Roam-0.1.20-macOS-arm64.dmg`
-   - **Intel**: `Roam-0.1.20-macOS-x64.dmg`
+   - **Apple Silicon (M-series)**: `Roam-0.1.21-macOS-arm64.dmg`
+   - **Intel**: `Roam-0.1.21-macOS-x64.dmg`
 3. Double-click the DMG and drag **Roam.app** to the **Applications** folder shown in the window.
 4. Once copying finishes, open Roam from **Applications**. You can eject the mounted Roam disk and delete the downloaded DMG.
 5. On first launch, open **Settings → Account settings**, connect ChatGPT or enter your own API key, and select a model. macOS may ask you to allow Keychain access.
@@ -48,7 +48,7 @@ The Mac version is currently ad-hoc signed, without an Apple Developer ID signat
 
 ## Version and verification
 
-The current version is **0.1.20**, with downloads for Windows x64, macOS arm64 and macOS x64. The Windows version retains its existing functionality. Both Mac versions were packaged, backend-tested and launch-tested on GitHub Mac runners of the matching architecture. Live account sign-in, online queries and save dialogs on macOS still need verification on users' own computers.
+The current version is **0.1.21**, with downloads for Windows x64, macOS arm64 and macOS x64. The Windows version retains its existing functionality. Both Mac versions were packaged, backend-tested and launch-tested on GitHub Mac runners of the matching architecture. Live account sign-in, online queries and save dialogs on macOS still need verification on users' own computers.
 
 The release includes `SHA256SUMS.txt` for Windows and `SHA256SUMS-macOS-*.txt` for Mac. To verify a download, compare its SHA-256 hash with the corresponding list using `Get-FileHash -Algorithm SHA256` in Windows PowerShell or `shasum -a 256` in macOS Terminal.
 
